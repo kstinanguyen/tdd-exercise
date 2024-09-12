@@ -72,7 +72,7 @@ def test_returns_bust_for_scores_over_21():
 
   assert score == expected_result
 
-
+#Need to work on this test case
 @pytest.mark.skip(reason="no way of currently testing this")
 def test_returns_12_for_ace_ace_king():
   hand = ["Ace", "Ace", "King"]
